@@ -1,0 +1,49 @@
+body{
+    /* background: #eeedec; */
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../img/bg1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.container{
+    max-width: 400px;
+}
+
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.change-location input{
+    background: transparent !important;
+}
+
+.card{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),transparent !important;
+}
+
+.map{
+    background: transparent; 
+    transition: 0.3s;
+}
+.map:hover{
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), white ;
+}
+
+
+
+
+
+
+
+
+
+
+

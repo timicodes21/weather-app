@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Timi's Weather</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h2 class="text-white text-center my-3">Timi's Weather</h2>
+
+        <form class="change-location my-4 text-center text-white">
+            <label for="city" class=" my-3">Where around the world?</label>
+            <input type="text" name="city" class="form-control text-white p-2">
+        </form>
+
+
+        <div class="error d-none">
+            <h5 class="text-danger text-center">Oops! Can't get your location</h5>
+        </div>
+
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/200x150" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div> 
+            <div class="text-white text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather Conditions</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
