@@ -31,6 +31,7 @@ const updateUI = (data) => {
     // update details template
     details.innerHTML = `
         <h5 class="my-3">${cityDets.EnglishName}, ${cityDets.Country.LocalizedName}</h5>
+        <div class="my-3">${weather.LocalObservationDateTime}</div>
         <div class="my-3">${weather.WeatherText}</div>
         <div class="display-4 my-4">
             <span>${weather.Temperature.Metric.Value}</span>
@@ -45,6 +46,7 @@ const updateUI = (data) => {
     icon.setAttribute('src', iconSrc);
 
     let timeSrc = weather.IsDayTime ? 'img/day.svg' : 'img/night.svg'
+    console.log(weather.LocalObservationDateTime);
 
     time.setAttribute('src', timeSrc);
 
